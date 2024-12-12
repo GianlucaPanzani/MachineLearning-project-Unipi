@@ -1,12 +1,13 @@
 
-# The project
+# ML Progect 2023
+Authors: Gianluca Panzani, Emad Chelhi, Corrado Baccheschi and coordinated by prof. Alessio Micheli from University of Pisa.
 
+# The project
 We had 4 tasks with a Dataset for each one:
 - 3 of them were Binary Classification problems, as boolean expressions (Monks datasets),
 - 1 of them was a Regression problem (CUP dataset).
 
 # Implementation
-
 We’ve compared three Neural Networks in Keras, Pytorch and Scikit-Learn, and one SVM, to see differences
 both on models and tools.
 
@@ -15,12 +16,10 @@ We made Model Selection and Model Assessment by using Grid-Search and K-fold Cro
 Internal Test set for CUP, and on the given Test set (for Monks).
 
 # Regression problem (CUP)
-
 The selected model for the CUP is made with Pytorch because it retrieved the best results.
 We focused on various levels of abstraction, flexibility and customizability offered by the different tools we investigated.
 
 # Why we have chosen these frameworks?
-
 Regarding the Neural Networks, we utilized:
 - Keras for its higher-level functionalities and features,
 - PyTorch for its greater flexibility and customizability.
